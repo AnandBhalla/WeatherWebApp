@@ -65,3 +65,77 @@
 .weather-info img{
     height: 35px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        height: 90%;
+        width: auto;
+    }
+    .container input{
+        width: 90%;
+    }
+    .city {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .city h1 {
+        font-size: 40px;
+    }
+
+    .city img {
+        height: 100px;
+    }
+
+    .weather h1 {
+        font-size: 40px;
+    }
+
+    .weather-desc {
+        flex-direction: column;
+    }
+
+    .weather-info {
+        flex: 1 0 100%;
+        margin-bottom: 10px;
+    }
+
+    .weather-info h2, .weather-info i {
+        font-size: 25px;
+    }
+
+    .weather-info img {
+        height: 30px;
+    }
+}
+
+/* @media (max-width: 480px) {
+    .container input {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .container button {
+        font-size: 20px;
+    }
+
+    .city h1 {
+        font-size: 30px;
+    }
+
+    .city img {
+        height: 80px;
+    }
+
+    .weather h1 {
+        font-size: 30px;
+    }
+
+    .weather-info h2, .weather-info i {
+        font-size: 20px;
+    }
+
+    .weather-info img {
+        height: 25px;
+    }
+} */
