@@ -108,34 +108,3 @@
         height: 30px;
     }
 }
-
-/* @media (max-width: 480px) {
-    .container input {
-        width: 100%;
-        font-size: 20px;
-    }
-
-    .container button {
-        font-size: 20px;
-    }
-
-    .city h1 {
-        font-size: 30px;
-    }
-
-    .city img {
-        height: 80px;
-    }
-
-    .weather h1 {
-        font-size: 30px;
-    }
-
-    .weather-info h2, .weather-info i {
-        font-size: 20px;
-    }
-
-    .weather-info img {
-        height: 25px;
-    }
-} */
